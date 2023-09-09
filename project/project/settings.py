@@ -164,7 +164,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = 465
 MAIL_HOST_USER = ('voronin.sergei2002')
-EMAIL_HOST_PASSWORD = ('5116Qwer10.07.2002')
+EMAIL_HOST_PASSWORD = ('KIIHJLKljkhlkjlhjOL')
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
@@ -174,7 +174,7 @@ SERVER_EMAIL = ('voronin.sergei2002@yandex.ru')
 
 
 ADMINS = (
-    ('administrator', 'servisvlg4@rambler.ru'),
+    ('administrator', 'anton@yandex.ru'),
 )
 
 APSCHEDULER_DATETIME_FORMAT = 'N j, Y, f:s a'  # формат в котором будет выполняться рассылка
