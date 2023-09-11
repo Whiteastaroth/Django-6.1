@@ -143,7 +143,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-LOGIN_REDIRECT_URL = '/news'
+LOGIN_REDIRECT_URL = '/news/news_list/'
 
 
 AUTHENTICATION_BACKENDS = [
@@ -163,14 +163,14 @@ ACCOUNT_FORMS = {'signup': 'accounts.forms.CustomSignupForm'}
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = 465
-MAIL_HOST_USER = ('voronin.sergei2002')
-EMAIL_HOST_PASSWORD = ('KIIHJLKljkhlkjlhjOL')
+EMAIL_HOST_USER = 'voronin.sergei2002'
+EMAIL_HOST_PASSWORD = 'klmahldzmzxxcqxf'
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
-DEFAULT_FROM_EMAIL = ('voronin.sergei2002@yandex.ru')
+DEFAULT_FROM_EMAIL = 'voronin.sergei2002@yandex.ru'
 
-SERVER_EMAIL = ('voronin.sergei2002@yandex.ru')
+SERVER_EMAIL = 'voronin.sergei2002@yandex.ru'
 
 
 ADMINS = (
